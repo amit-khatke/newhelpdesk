@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DashboradComponent } from './dashborad/dashborad.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 
 @Component({
@@ -6,7 +7,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
   selector: 'app-helpdesk',
   templateUrl: './helpdesk.component.html',
   styleUrls: ['./helpdesk.component.css'],
-  imports:[LoginpageComponent],
+  imports:[LoginpageComponent,DashboradComponent],
 })
 export class HelpdeskComponent implements OnInit {
 
