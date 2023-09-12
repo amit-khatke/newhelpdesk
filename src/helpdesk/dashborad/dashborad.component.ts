@@ -12,11 +12,6 @@ import { Information } from './information';
   imports: [ LeftComponent,SentimentComponent,CallLogComponent],
 })
 export class DashboradComponent { 
-    inforamtion: Information = {
-      name: 'amit',
-      gender:'male',
-      dob:2/11/2003,
-      phone:'8080613413'
-    };
+    information!: Information;
   }
 
